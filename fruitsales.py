@@ -12,3 +12,6 @@ df = pd.DataFrame(data, index=['2017 Sales', '2018 Sales'])
 
 # Print the DataFrame
 print(df)
+
+#Export to CSV
+df.to_csv('fruit.csv')
